@@ -28,32 +28,34 @@
     <br>
     <br>
     <!-- Form for contact-->
-    <h2>Contact</h2>
+    <div class="wrapper">
+        <h2>Contact</h2>
 
-    <div class="form">
-        <form action="/my-handling-form-page" method="POST">
-            <div>Name<br>
-                <label for="Name"></label>
-                <input type="text" id="Name" name="Name" placeholder="John Smith" required>
-            </div>
-            <div>Email<br>
-                <label for="Email"></label>
-                <input type="email" id="Email" name="Email" placeholder="example@gmail.com" required>
-            </div>
-            <div>Message<br>
-                <label for="Message"></label>
-                <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </div>  
+        <div class="form">
+            <form action="/my-handling-form-page" method="POST">
+                <div class="name">Name<br>
+                    <label for="Name"></label>
+                    <input type="text" id="Name" name="Name" placeholder="John Smith" required>
+                </div>
+                <div class="email">Email<br>
+                    <label for="Email"></label>
+                    <input type="email" id="Email" name="Email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="message">Message<br>
+                    <label for="Message"></label>
+                    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+        </div>  
+    </div>
+    
+    <footer class="footer">
+        <h4>Copright &copy; 2019 Stephen Green</h4>
+    </footer>
 
 </body>
-
-<footer class="footer">
-    <h4>Copright &copy; 2019 Stephen Green</h4>
-</footer>
 
 </html>

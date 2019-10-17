@@ -54,15 +54,28 @@ a:link {
 
 .wrapper {
     background: #ffffff;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #666666;
 }
 
-.wrapper:after{
-    content:"";
-    display: block;
-    clear: both;
+h2 {
+    color: #4aaaa5;
+    border-bottom: 1px solid #666666;
+}
+
+.name {
+    width: 100%;
+}
+
+.button {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.button:hover {
+    color: #666666;
 }
 
 .footer {
